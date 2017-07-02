@@ -5,8 +5,8 @@
     <meta charset="utf-8">
     <style>
         body{
-            width:1080px;
-            margin:50px auto;
+            width:550px;
+            margin:0 auto;
         }
         path {  stroke: #fff; }
         path:hover {  opacity:0.9; }
@@ -243,14 +243,15 @@
             }
         </script>
         <script>
-        var freqData=[
-        {State:'Australia',freq:{communicable:1161, noncommunicable:14458, injuries:2076}}
-        ,{State:'USA',freq:{communicable:1604, noncommunicable:18603, injuries:2567}}
-        ,{State:'Swaziland',freq:{communicable:52456, noncommunicable:27704, injuries:7002}}
-        ,{State:'Congo',freq:{communicable:38994, noncommunicable:25928, injuries:5690}}
-        ,{State:'Netherlands',freq:{communicable:1134, noncommunicable:15928, injuries:1708}}
-        ];
-        dashboard('#dashboard',freqData);
+            var freqData=[
+            {State:'Australia',freq:{communicable:1161, noncommunicable:14458, injuries:2076}}
+            ,{State:'USA',freq:{communicable:1604, noncommunicable:18603, injuries:2567}}
+            ,{State:'Swaziland',freq:{communicable:52456, noncommunicable:27704, injuries:7002}}
+            ,{State:'Congo',freq:{communicable:38994, noncommunicable:25928, injuries:5690}}
+            ,{State:'Netherlands',freq:{communicable:1134, noncommunicable:15928, injuries:1708}}
+            ];
+
+            dashboard('#dashboard',freqData);
         </script>
     </body>
 </html>
