@@ -236,6 +236,7 @@
                   <span>Projects</span>
                 </h3>
                 <br>
+                <br>
                 <p style="text-align:justify">
                   I like to explore data and extend my University-based assignments during spare time and document the insights that I discover. Competiting in datathons is also another interest of mine, in which some projects are based on that. 
                 </p>
@@ -300,6 +301,7 @@
                 <h3 class="title-small">
                   <span>Visualisations</span>
                 </h3>
+                <br>
                 <br>
                 <p style="text-align:justify">
                   I believe visualisation is a great way to show the insights that you have found from the data. Presenting it in an attracting and meaningful way is an approach I have been taking. Recently I have started using and learning D3.
@@ -725,22 +727,25 @@
                   <span>Contact</span>
                 </h3>
                 <p class="content-detail" style="text-align:justify">
-                  If you would like to contact me, please do by filling the form. I can also be contacted through my LinkedIn or you can email me personally through <b>yammajeno@gmail.com</b>
+                  If you would like to contact me (email), please do so by filling the form. I can also be contacted through my <a href="https://www.linkedin.com/in/cyamma" target="_blank"><font color="#007BB6">LinkedIn</font></a> or you can email me personally <b>yammajeno@gmail.com</b>
                 </p>
-
               </div>
               <div class="col-md-9 content-right">
-                <form action="mailto:yammajeno@gmail.com" method="post" enctype="text/plain">
+                <form id="emailForm">
                   <div class="group">
-                    <input required="" type="text"><span class="highlight"></span><span class="bar"></span><label>Name</label>
+                    <input id="name" required="" type="text"><span class="highlight"></span><span class="bar"></span><label>Name <font color="red">*</font></label>
                   </div>
                   <div class="group">
-                    <input required="" type="email"><span class="highlight"></span><span class="bar"></span><label>Email</label>
+                    <input id="email" required="" type="email"><span class="highlight"></span><span class="bar"></span><label>Email <font color="red">*</font> </label>
                   </div>
                   <div class="group">
-                    <textarea required=""></textarea><span class="highlight"></span><span class="bar"></span><label>Message</label>
+                    <input id="subject" required="" type="text"><span class="highlight"></span><span class="bar"></span><label>Subject <font color="red">*</font></label>
                   </div>
-                  <input id="sendMessage" name="sendMessage" type="submit" value="Send Message">
+                  <div class="group">
+                    <textarea id="message" required=""></textarea><span class="highlight"></span><span class="bar"></span><label>Message <font color="red">*</font></label>
+                  </div>
+                  <input id="sendMessage" type="button" value="Send Email">
+                  <p><b><font color="red">*</font></b> required inputs</p>
                 </form>
               </div>
             </div>
@@ -758,16 +763,13 @@
               <li class="github">
                 <a href="https://github.com/cyamma" data-hover="GitHub" target="_blank">GitHub</a>
               </li>
-<!--               <li class="gplus">
-                <a href="../#" data-hover="Google +" target="_blank">Google +</a>
-              </li> -->
             </ul>
           </div>
 
           <div class="footer-bottom">
             <div class="container">
               <div class="row">
-                <img src="images/favicon.png" alt="logo bottom" class="center-block" />
+                <img src="images/footfavicon.png" alt="logo bottom" class="center-block" style="width:183px; height:183px"/>
               </div>
             </div>
           </div>

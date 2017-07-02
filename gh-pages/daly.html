@@ -5,7 +5,7 @@
     <title>Jeno Yamma</title>
     <meta content="IE=edge" http-equiv="X-UA-Compatible">
     <!--Fav-->
-    <link href="../images/favicon.jpg" rel="shortcut icon">
+    <link href="../images/favicon.png" rel="shortcut icon">
     
     <!--styles-->
     <link href="../css/bootstrap.min.css" rel="stylesheet">
@@ -65,7 +65,7 @@
             <a data-scroll="" href="#DalyByCountry">
               <span>DALY By Country</span>
             </a>
-            <a href="../index.html" target="_blank">
+            <a href="../index.html">
               <span>Home Page</span>
             </a>
           </div>
@@ -116,23 +116,22 @@
                     <p style="text-align:justify">
                       People across the world are affected by <b>diseases</b>, <b>injuries</b> and <b>disabilities</b>.
                       The time spent living with these burdens combined with the time lost comes
-                      together as <b>Disability-adjusted life years (DALY)</b>. This is a
-                      a measure of overall burden on individuals. 
+                      together as <b>Disability-adjusted life years (DALY)</b>. This is
+                      a measure of the overall burden on individuals. 
                     </p>
                   </div>
                   <div class="col-md-4">
                     <img alt="image" src = "../images/worldbank_logo.svg" style="width:250px; height:200px;">
                       <p style="text-align:justify">
-                        <b>Data from World Bank </b>and the <b> World Health Organisation</b> are used and interact with
-                        in varieties of ways to visualise the <b>life expectancy</b> and <b>DALY</b>.
+                        <b>Data from World Bank </b>and the <b> World Health Organisation</b> are used to form various 
+                        visualisations to help understand <b>life expectancy</b> and <b>DALY</b>.
                       </p>
                   </div>
                   <div class="col-md-4">
                     <img alt="image" src = "../images/bar_logo.png" style="width:250px; height:200px;">
                       <p style="text-align:justify">
-                        <b>Visualisation</b> are produced based upon the factors that affects <b>life expectancy</b> as well as
-                        the factors that affects the <b>DALY</b>. Different <b>Countries</b> are compared to view how significant
-                        <b>DALY</b> affects it based upon the <b>year</b>.
+                        <b>Visualisation</b> were produced based upon factors that affects <b>life expectancy</b> and
+                        <b>DALY</b>. Different <b>Countries</b> and <b>years</b> were compared to see how <b>DALY</b> varies
                       </p>
                   </div>
                 <!--/.OWL CAROUSEL2 END-->
@@ -142,7 +141,7 @@
         </section>
         <!--/.ABOUT END-->
 
-        <!--SKILLS-->
+        <!--LIFEEXPECTANCYGRAPH-->
         <section class="white-bg" id="lifeExpectancy">
           <div class="container">
             <div class="row">
@@ -151,7 +150,7 @@
                   <span>Overview of Life Expectancy</span>
                 </h3>
                 <p class="content-detail" style="text-align:justify">
-                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                  A <b>choropleth</b> was drawn based on the <b>life expectancy</b> of different <b>countries</b> and <b>years</b>. As shown, most of Asian countries, beside a few like Japan and Vietnam, have a lower life expectancy than the more developed European countries. However, countries within Africa, have a much lower life expectancy than the rest of the world. The <b>scatter plot</b> of the <b>average life expectancy</b> and <b>GDP</b> shows that there is a <b>positive relationship</b> between the two, and this indicates that the low life expectancy in Africa could be due to its <b>low gross development product (GDP)</b>, which is often used as an indicator of the country’s economy. Over time, from year 2000, the average life expectancy across countries have <b>increased</b> over the years to 2014.
                 </p>
               </div>
               <div class="col-md-12" style="text-align:center;">
@@ -228,8 +227,9 @@
             </div>
           </div>
         </section>
-        <!--/.SKILLS END-->
+        <!--/.LIFEEXPECTANCYGRAPH END-->
 
+        <!--/.CHOROPLETH END-->
         <section class="grey-bg mar-tm-10" id="choropleth">
           <div class="container">
             <div class="row">
@@ -238,7 +238,7 @@
                   <span>Motion Chart</span>
                 </h3>
                 <p class="content-detail" style="text-align:justify">
-                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                  Life expectancy <b>increases</b> as the year progresses. This is an <b>interactive motion chart</b> inspired by <b>Hans Rosling</b>. The motion chart shows <b>circles</b> representing different <b>regions</b> and their relations to <b>life expectancy</b> and <b>GDP</b>. The country with <b>larger circle</b> are countries with <b>higher population</b>. The dates can also be <b>scrolled left and right</b> to view the different years.
                 </p>
               </div>
               <div class="col-md-12" style="text-align:center;">
@@ -247,19 +247,20 @@
             </div>
           </div>
         </section>
-        <!--/.SKILLS END-->
+        <!--/.CHOROPLETH END-->
 
-        <!--WORK-->
+        <!--DALYBYTYPE-->
         <section class="white-bg" id="DalyByType">
           <div class="container">
             <div class="row">
               <div class="col-md-3">
                 <h3 class="title-small">
-                  <span>DALY by Condition Type</span>
+                  <span>DALY by Type</span>
                 </h3>
                 <br>
+                <br>
                 <p style="text-align:justify">
-                  Life expectancy increases as the year progresses. This is an interactive motion chart inspired by Hans Rosling. The motion chart shows dot of different regions and their relations to life expectancy and GDP.<br><br>The country with the larger radius are the country with the higher population. The dates can also be scrolled after the animation finishes to select which year to play the animation back to. This allows you to interactively view the changes over time
+                  <b>Disability-adjusted life years</b> is calculated as the <i>sum of incidence * duration * severity</i>, and <i>sum of the number of deaths * standard life expectancy at the age of death</i>. A <b>Stacked Bar Chart</b> was graphed to show the different burdens and its contribution to the <b>total DALY</b> across all countries for the year <b>2000</b> and <b>2012</b>. <b>Stroke</b>, <b>road injuries</b> and <b>lower respiratory infections</b> have the <b>highest contribution</b> towards the overall DALY.
                 </p>
               </div>
               <div class="col-md-9 content-right">
@@ -279,7 +280,7 @@
             </div>
           </div>
         </section>
-        <!--/.WORK END-->
+        <!--/.DALYBYTYPE END-->
 
         <section class="grey-bg mar-tm-10" id="DalyByCountry">
           <div class="container">
@@ -290,7 +291,7 @@
                 </h3>
                 <p class="content-detail" style="text-align:justify">
                   <h3>Did you know about 1070 Lives are lost per 100,000 of a population in Swaziland...</h3>
-                  <p>There are 5 countries shown on this graph, you can view and compare each country and their DALY figure per 100, 000 of a population. The countries listed have a mixed range in terms of human developmental index. Try hovering over the pie chart or the bar chart itself. Hovering over the pie chart would allow you to view how different factors between communicable diseaese, non-communicable disease and injuries contribute to the DALY of each countries.
+                  <p>There are <b>5 countries</b> shown on this graph, you can view and compare each countries and their relative <b>DALY figure per 100,000 of a population</b>. The countries chosen were picked in respect to its <b>human developmental index (HDI)</b>, where countries with <b>high HDI</b> such as Australia and <b>low HDI</b> such as Swaziland were chosen. Try hovering over the pie chart or the bar chart itself. Hovering over the pie chart allows you to view how different factors between <b>communicable diseases</b>, <b>non-communicable diseases</b> and <b>injuries contribute</b> to the DALY of each countries.
                   </p>
               </div>
               <div class="col-md-12" style="text-align:center;">
@@ -304,14 +305,11 @@
         <footer>
           <div class="footer-top">
             <ul class="socials">
-              <li class="facebook">
+              <li class="linkedin">
                 <a href="https://www.linkedin.com/in/cyamma" data-hover="linkedIn" target="_blank">linkedIn</a>
               </li>
-              <li class="twitter">
+              <li class="github">
                 <a href="https://github.com/cyamma" data-hover="GitHub" target="_blank">GitHub</a>
-              </li>
-              <li class="gplus">
-                <a href="../#" data-hover="Google +" target="_blank">Google +</a>
               </li>
             </ul>
           </div>
@@ -319,7 +317,7 @@
           <div class="footer-bottom">
             <div class="container">
               <div class="row">
-                <img src="../images/favicon.png" alt="logo bottom" class="center-block" />
+                <img src="../images/footfavicon.png" alt="logo bottom" class="center-block" style="width:183px; height:183px"/>
               </div>
             </div>
           </div>
@@ -342,16 +340,12 @@
     <script src="../js/masonry.js" type="text/javascript"></script>
     <script src="../js/smooth-scroll.min.js" type="text/javascript"></script>
     <script src="../js/typed.js" type="text/javascript"></script>
-
     <script src = "../js/d3.js" charset = "utf-8"></script>
     <script src = "../js/nv.d3.js" charset = "utf-8"></script>
     <script src = "../js/d3.geomap.dependencies.min.js" charset = "utf-8"></script>
     <script src = "../js/d3.geomap.min.js" charset = "utf-8"></script>
     <script src = "../js/d3.geomap.min.js" charset = "utf-8"></script>
     <script src = "../js/daly_main.js" charset = "utf-8"></script>
-
-
-
     <script src="../js/main.js" type="text/javascript"></script>
   </body>
 </html>

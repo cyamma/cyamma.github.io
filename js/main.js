@@ -134,14 +134,19 @@
       theme : "owl-theme"
     });
 
-    //contact
-    $('input').blur(function() {
-
-      // check if the input has any value (if we've typed into it)
-      if ($(this).val())
-        $(this).addClass('used');
-      else
-        $(this).removeClass('used');
+    // contact
+    $(document).ready(function() {
+      $('#sendMessage').click(function() {
+        if($("#name, #message").val() == ""){
+          alert("Please enter all the required details");
+        } else if($("#subject").val() == ""){
+          alert("Please enter all the required details");
+        } else if($("#message").val() == ""){
+          alert("Please enter all the required details");
+        } else {
+          window.location = 'mailto:yammajeno@gmail.com?subject=' + $("#name").val() + ": " + $('#subject').val() + '&body=' + $('#message').val();
+        }
+      });
     });
 
     //pop up porfolio
@@ -152,7 +157,7 @@
       }
       // other options
     });
-    
+
     //Skill
     jQuery('.skillbar').each(function() {
       jQuery(this).appear(function() {
