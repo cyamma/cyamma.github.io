@@ -1,8 +1,7 @@
-/*
-Template Name: Bodo - Simple One Page Personal
-Author: BdgPixel
-Author URI:  http://themeforest.net/user/BdgPixel
-*/
+/*!
+ * Template Idea: Bodo - Simple One Page Personal, BdgPixel;
+ * Original Author URL - https://themeforest.net/user/bdgpixel
+
 /* -----------------------------------------------------------
 TABLE OF CONTENTS:
 --------------------------------------------------------------
@@ -476,6 +475,25 @@ p {
   margin: 0 auto;
   opacity: 0.6;
 }
+
+#home2 h1 {
+  line-height: 40px;
+  letter-spacing: 0.6px;
+}
+#home2 .typed {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 1.5px;
+  margin: 0 auto;
+  opacity: 0.6;
+}
+
+#home-daly h1 {
+  line-height: 40px;
+  letter-spacing: 0.6px;
+}
+
 .year {
   font-size: 26px;
   font-weight: 500;
@@ -1159,7 +1177,7 @@ ul.portfolio-image li .desc{
   list-style: outside none none;
   float: left;
   overflow: hidden;
-  width: 33.33333%;
+  width: 50%;
   font-size: 13px;
 }
 
@@ -1207,18 +1225,18 @@ ul.portfolio-image li .desc{
   transform: translateY(100%);
 }
 
-.facebook{
+.linkedin{
   background: #969696;
   /*padding: 20px 0;*/
 }
-.facebook a:after{
-  background-color: #527bbb;
+.linkedin a:after{
+  background-color: #0077B5;
 }
-.twitter{
+.github{
   background: #ABABAB;
 }
-.twitter a:after{
-  background-color: #77ccf1;
+.github a:after{
+  background-color: #0D2636;
 }
 .gplus{
   background: #d8d8d8;
@@ -1229,7 +1247,7 @@ ul.portfolio-image li .desc{
 
 .footer-bottom{
   width: 100%;
-  background: #2f2f2f;
+  background: #DEDEDE;
   padding: 80px 0;
   color: #636363;
 }

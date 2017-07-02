@@ -92,10 +92,11 @@
     $(".typed").typed({
         strings: 
           [
-            "or Chaiyaporn Yamma", 
             "Data Science student",
+            "Monash University",
             "I like data",
-            "Interested in modelling and visualisation"
+            "I create models and",
+            "story-telling visulisations"
           ],
         typeSpeed: 20,
         backDelay: 300,
