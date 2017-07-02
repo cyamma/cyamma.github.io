@@ -861,7 +861,7 @@ var marginMC = { //dimension
     bottom: 19.5,
     left: 39.5
 },
-    widthMC = 960 - marginMC.right,
+    widthMC = 750 - marginMC.right,
     heightMC = 500 - marginMC.top - marginMC.bottom,
     yearMargin = 10;
 
@@ -880,6 +880,8 @@ var xAxisMC = d3.svg.axis().orient("bottom").scale(xScaleMC).ticks(15, "s"), //d
 var motionchartSVG = d3.select("#motionchart").append("svg")
     .attr("width", widthMC + marginMC.left + marginMC.right)
     .attr("height", heightMC + marginMC.top + marginMC.bottom)
+    .attr('viewBox', '0 0 1000 500')
+    .attr('preserveAspectRatio','xMidYMid meet')
     .append("g")
     .attr("transform", "translate(" + marginMC.left + "," + marginMC.top + ")");
 
