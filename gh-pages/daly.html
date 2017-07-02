@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Jeno Yamma</title>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <!--Fav-->
+    <link href="../images/favicon.jpg" rel="shortcut icon">
+    
+    <!--styles-->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/owl.carousel.css" rel="stylesheet">
+    <link href="../css/owl.theme.css" rel="stylesheet">
+    <link href="../css/magnific-popup.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
+    <link href="../css/responsive.css" rel="stylesheet">
+    <link href="../css/nv.d3.css" rel="stylesheet">
+    <link href="../css/d3.geomap.css" rel="stylesheet">
+    <link href="../css/daly.css" rel="stylesheet">
+
+    <!--fonts google-->
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
+
+    <!--[if lt IE 9]>
+       <script type="text/javascript" src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <!--PRELOADER-->
+    <div id="preloader">
+      <div id="status">
+        <img alt="logo" src="../images/favicon_quick.png">
+      </div>
+    </div>
+    <!--/.PRELOADER END-->
+
+    <!--HEADER -->
+    <div class="header">
+      <div class="for-sticky">
+        <!--LOGO-->
+        <div class="col-md-2 col-xs-6 logo">
+          <a href="../index.html"><img alt="logo" class="logo-nav" src="../images/logo.png"></a>
+        </div>
+        <!--/.LOGO END-->
+      </div>
+      <div class="menu-wrap">
+        <nav class="menu">
+          <div class="menu-list">
+            <a data-scroll="" href="#home-daly" class="active">
+              <span>Top of Page</span>
+            </a>
+            <a data-scroll="" href="#about">
+              <span>About</span>
+            </a>
+            <a data-scroll="" href="#lifeExpectancy">
+              <span>Life Expectancy</span>
+            </a>
+            <a data-scroll="" href="#motionchart">
+              <span>Motion Chart</span>
+            </a>
+            <a data-scroll="" href="#DalyByType">
+              <span>DALY By Type</span>
+            </a>
+            <a data-scroll="" href="#DalyByCountry">
+              <span>DALY By Country</span>
+            </a>
+            <a href="../index.html" target="_blank">
+              <span>Home Page</span>
+            </a>
+          </div>
+        </nav>
+        <button class="close-button" id="close-button">Close Menu</button>
+      </div>
+      <button class="menu-button" id="open-button">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button><!--/.for-sticky-->
+    </div>
+    <!--/.HEADER END-->
+    
+    <!--CONTENT WRAP-->
+    <div class="content-wrap">
+      <!--CONTENT-->
+      <div class="content">
+        <!--HOME-->
+        <section id="home-daly">
+          <div class="container">
+            <div class="row">
+              <div class="wrap-hero-content">
+                  <div class="hero-content">
+                    <h1><b>Distributed Adjusted<br>Life Years Visualisation</b></h1>
+                  </div>
+              </div>
+              <div class="mouse-icon margin-20">
+                <div class="scroll"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--/.HOME END-->
+
+        <!--ABOUT-->
+        <section class="grey-bg mar-tm-10" id="about">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <h3 class="title-small">
+                  <span>About</span>
+                </h3>
+                <br>
+                <!--OWL CAROUSEL2-->
+                  <div class="col-md-4">
+                    <img alt="image" src = "../images/disability_logo.svg" style="width:250px; height:200px;">
+                    <p style="text-align:justify">
+                      People across the world are affected by <b>diseases</b>, <b>injuries</b> and <b>disabilities</b>.
+                      The time spent living with these burdens combined with the time lost comes
+                      together as <b>Disability-adjusted life years (DALY)</b>. This is a
+                      a measure of overall burden on individuals. 
+                    </p>
+                  </div>
+                  <div class="col-md-4">
+                    <img alt="image" src = "../images/worldbank_logo.svg" style="width:250px; height:200px;">
+                      <p style="text-align:justify">
+                        <b>Data from World Bank </b>and the <b> World Health Organisation</b> are used and interact with
+                        in varieties of ways to visualise the <b>life expectancy</b> and <b>DALY</b>.
+                      </p>
+                  </div>
+                  <div class="col-md-4">
+                    <img alt="image" src = "../images/bar_logo.png" style="width:250px; height:200px;">
+                      <p style="text-align:justify">
+                        <b>Visualisation</b> are produced based upon the factors that affects <b>life expectancy</b> as well as
+                        the factors that affects the <b>DALY</b>. Different <b>Countries</b> are compared to view how significant
+                        <b>DALY</b> affects it based upon the <b>year</b>.
+                      </p>
+                  </div>
+                <!--/.OWL CAROUSEL2 END-->
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--/.ABOUT END-->
+
+        <!--SKILLS-->
+        <section class="white-bg" id="lifeExpectancy">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <h3 class="title-small">
+                  <span>Overview of Life Expectancy</span>
+                </h3>
+                <p class="content-detail" style="text-align:justify">
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                </p>
+              </div>
+              <div class="col-md-12" style="text-align:center;">
+              <!-- Drop down menu -->
+                <select id="selectMe" style="display: absolute;">
+                  <option value="option0">2000</option>
+                  <option value="option1">2001</option>
+                  <option value="option2">2002</option>
+                  <option value="option3">2003</option>
+                  <option value="option4">2004</option>
+                  <option value="option5">2005</option>
+                  <option value="option6">2006</option>
+                  <option value="option7">2007</option>
+                  <option value="option8">2008</option>
+                  <option value="option9">2009</option>
+                  <option value="option10">2010</option> 
+                  <option value="option11">2011</option>
+                  <option value="option12">2012</option>
+                  <option value="option13">2013</option> 
+                  <option value="option14">2014</option> 
+                </select>
+
+              <!-- Choropleth -->
+                <div id="option0" class = "group">
+                  <div id = "map0"></div>
+                </div>
+                <div id="option1" class = "group">
+                  <div id = "map1"></div>
+                </div>
+                <div id = "option2" class = "group">
+                  <div id = "map2"></div>
+                </div>
+                <div id="option3" class = "group">
+                  <div id = "map3"></div>
+                </div>
+                <div id = "option4" class = "group">
+                  <div id = "map4"></div>
+                </div>
+                <div id="option5" class = "group">
+                  <div id = "map5"></div>
+                </div>
+                <div id = "option6" class = "group">
+                  <div id = "map6"></div>
+                </div>
+                <div id="option7" class = "group">
+                  <div id = "map7"></div>
+                </div>
+                <div id = "option8" class = "group">
+                  <div id = "map8"></div>
+                </div>
+                <div id="option9" class = "group">
+                  <div id = "map9"></div>
+                </div>
+                <div id = "option10" class = "group">
+                  <div id = "map10"></div>
+                </div>
+                <div id="option11" class = "group">
+                  <div id = "map11"></div>
+                </div>
+                <div id = "option12" class = "group">
+                  <div id = "map12"></div>
+                </div>
+                <div id="option13" class = "group">
+                  <div id = "map13"></div>
+                </div>
+                <div id = "option14" class = "group">
+                  <div id = "map14"></div>
+                </div>
+              </div>
+              <div class='col-md-12'>
+                <div id="avgLinegraph" class="col-md-6" style="text-align:center;"></div>
+                <div id="GDPvsLEgraph" class="col-md-6" style="text-align:center;"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--/.SKILLS END-->
+
+        <section class="grey-bg mar-tm-10" id="choropleth">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <h3 class="title-small">
+                  <span>Motion Chart</span>
+                </h3>
+                <p class="content-detail" style="text-align:justify">
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                </p>
+              </div>
+              <div class="col-md-12" style="text-align:center;">
+                <div id="motionchart"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--/.SKILLS END-->
+
+        <!--WORK-->
+        <section class="white-bg" id="DalyByType">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-3">
+                <h3 class="title-small">
+                  <span>DALY by Condition Type</span>
+                </h3>
+                <br>
+                <p style="text-align:justify">
+                  Life expectancy increases as the year progresses. This is an interactive motion chart inspired by Hans Rosling. The motion chart shows dot of different regions and their relations to life expectancy and GDP.<br><br>The country with the larger radius are the country with the higher population. The dates can also be scrolled after the animation finishes to select which year to play the animation back to. This allows you to interactively view the changes over time
+                </p>
+              </div>
+              <div class="col-md-9 content-right">
+                <div class="col-md-12" style="text-align: center">
+                  <h3>DALY Calculation Method</h3>
+                  <img alt="image" src = "../images/DALY.png" style="width:320px; height:200px;">
+                  <p style="text-align:center;">
+                    YLD = Sum of incidence × duration × severity weight, and<br>
+                    YLL = Sum of number of deaths × standard life expectancy at age of death
+                  </p>
+                </div>
+                <div class="col-md-12" style="text-align: center">
+                  <h3>Stacked Bar Chart</h3>
+                  <iframe src = "stackedAreaChart.html" frameborder="0" height = 500px width = 300px></iframe>
+                </div>  
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--/.WORK END-->
+
+        <section class="grey-bg mar-tm-10" id="DalyByCountry">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <h3 class="title-small">
+                  <span>DALY by Country</span>
+                </h3>
+                <p class="content-detail" style="text-align:justify">
+                  <h3>Did you know about 1070 Lives are lost per 100,000 of a population in Swaziland...</h3>
+                  <p>There are 5 countries shown on this graph, you can view and compare each country and their DALY figure per 100, 000 of a population. The countries listed have a mixed range in terms of human developmental index. Try hovering over the pie chart or the bar chart itself. Hovering over the pie chart would allow you to view how different factors between communicable diseaese, non-communicable disease and injuries contribute to the DALY of each countries.
+                  </p>
+              </div>
+              <div class="col-md-12" style="text-align:center;">
+                <iframe src = "dashboard.html" frameborder="0" height = 500px width = 300px></iframe>
+              </div>
+            </div>
+          </div>
+        </section>
+        
+        <!--FOTER-->
+        <footer>
+          <div class="footer-top">
+            <ul class="socials">
+              <li class="facebook">
+                <a href="https://www.linkedin.com/in/cyamma" data-hover="linkedIn" target="_blank">linkedIn</a>
+              </li>
+              <li class="twitter">
+                <a href="https://github.com/cyamma" data-hover="GitHub" target="_blank">GitHub</a>
+              </li>
+              <li class="gplus">
+                <a href="../#" data-hover="Google +" target="_blank">Google +</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer-bottom">
+            <div class="container">
+              <div class="row">
+                <img src="../images/transparent_logo_temp.png" alt="logo bottom" class="center-block" />
+              </div>
+            </div>
+          </div>
+        </footer>
+        <!--/.FOOTER-END-->
+
+      <!--/.CONTENT END-->
+      </div>
+    <!--/.CONTENT-WRAP END-->
+    </div>
+    
+
+    <script src="../js/jquery-1.9.1.min.js" type="text/javascript"></script>
+    <script src="../js/jquery.appear.js" type="text/javascript"></script>
+    <script src="../js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="../js/classie.js" type="text/javascript"></script>
+    <script src="../js/owl.carousel.min.js" type="text/javascript"></script>
+    <script src="../js/jquery.magnific-popup.min.js" type="text/javascript"></script>
+    <script src="../js/masonry.pkgd.min.js" type="text/javascript"></script>
+    <script src="../js/masonry.js" type="text/javascript"></script>
+    <script src="../js/smooth-scroll.min.js" type="text/javascript"></script>
+    <script src="../js/typed.js" type="text/javascript"></script>
+
+    <script src = "../js/d3.js" charset = "utf-8"></script>
+    <script src = "../js/nv.d3.js" charset = "utf-8"></script>
+    <script src = "../js/d3.geomap.dependencies.min.js" charset = "utf-8"></script>
+    <script src = "../js/d3.geomap.min.js" charset = "utf-8"></script>
+    <script src = "../js/d3.geomap.min.js" charset = "utf-8"></script>
+    <script src = "../js/daly_main.js" charset = "utf-8"></script>
+
+
+
+    <script src="../js/main.js" type="text/javascript"></script>
+  </body>
+</html>
