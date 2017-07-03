@@ -92,13 +92,11 @@
     $(".typed").typed({
         strings: 
           [
-            "Data Science student",
+            "Data Science Student",
             "Monash University",
-            "I like data",
-            "I create models and",
-            "story-telling visulisations"
+            "Data Science Freelancer"
           ],
-        typeSpeed: 20,
+        typeSpeed: 40,
         backDelay: 300,
         // loop
         loop: true
