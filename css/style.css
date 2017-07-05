@@ -150,12 +150,12 @@ img { max-width: 100%; }
 /*----- background ------*/
 .grey-bg {
   background: #f6f6f6;
-  padding: 120px 0;
+  padding: 50px 0;
   display: block;
 }
 .white-bg {
   background: #ffffff;
-  padding: 120px 0;
+  padding: 50px 0;
   display: block;
 }
 /*-------- content --------*/
@@ -560,6 +560,7 @@ p {
   width: 100%;
   display: block;
 }
+
 
 .wrap-hero-content{
   width: 100%;
