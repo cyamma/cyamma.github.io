@@ -22,11 +22,7 @@
     <!--fonts google-->
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
-    <style type="text/css">
-      h6{
-        font-size: 14px;
-      }
-    </style>
+
     <!--[if lt IE 9]>
        <script type="text/javascript" src="../js/html5shiv.min.js"></script>
     <![endif]-->
@@ -204,7 +200,7 @@
                   As mentioned in the background, there have been a plethora of researches conducted based on the speed limit and accident severity. There are numerous factors that could contribute to the car accident and its severity, and due to this, it is important to identify if speed zone/limit (provides a close indication of the car’s speed prior to the accident), have a significant association with accident severity.
                 </p>
                 <br>
-                <h6>Random Forest for Feature Importance</h6>
+                <h5 style="font-size: 13px">Random Forest for Feature Importance</h5>
                 <p style="text-align:justify">
                   To find the most likely predictors that will help in a near accurate classification of new data, a type of decision trees, Random Forests, can be implemented. Variables from the data set are randomly selected and a decision tree is created <sup>[19]</sup>. This process is repeated until there are enough decision trees for comparison. The analogy of a random forest, the decision trees are grouped together to form a set of trees, or a “forest”. Based on the calculated Gini index <sup>[10]</sup>, and for large data sets, having numerous predictors, Random Forest could also be used to rank the importance of variables, such as identifying the most relevant variables that seem to have a significant impact on predicting the readmission of the patients in ICU. It works by measuring the importance in the data, given:
                   <img alt="car_speed_blog" src="../images/car_speed_blog/eq_methods.png" style="height:20px; display: block; margin: 0 auto">
@@ -212,7 +208,7 @@
                   Ever since its inception, the algorithm has been used in various researches and applications to help find the best classifier for the specific prediction variable in the target data set <sup>[4]</sup>. From ecology to medicine to astronomy, random forests have proven its worth by being able to successfully predict and classify data sets in the right classes. In medicine, specifically for cancer, random forest was used to correctly predict pathological samples for breast cancer by using feature selection to identify genes that are biologically significant <sup>[5],</sup> and in another study, the same was used to classify cancer microarray data based on a variety of gene sets <sup>[11]</sup>. Similarly, random forests are used in this study to identify the most beneficial predictors from the data set that will help determine the association between the severity of the accident with the speed zone. However, the cons of random forest are that it is biased in favour of variables that have more levels. Hence, the result from Random Forest from datasets that have high number of levels are less reliable, but this can be solved using partial permutation <sup>[20]</sup>. In the case of the dataset used in this study, the number of levels is not significantly high, hence it is likely not to be affected by this problem.
                 </p>
                 <br>
-                <h6>Chi Square Test</h6>
+                <h5 style="font-size: 13px">Chi Square Test</h5>
                 <p style="text-align:justify">
                   The Chi Square statistic is a non-parametric test to analyse the relationship between independent groups of variables by formulating a contingency table to analyse the association between the two variables <sup>[14]</sup>. This test is beneficial to find a standing relationship between variables that are not continuous by nature. In researches conducted in the past that involved independent variables like genders vs. depressive symptoms <sup>[7]</sup> or types of water consumed and their preferences <sup>[13]</sup>, the Chi Square test of fitness was used to determine the association without having the need to convert the data types. This is calculated as follows:
                   <img alt="car_speed_blog" src="../images/car_speed_blog/eq_methods2.png" style="height:30px; display: block; margin: 0 auto">
@@ -243,7 +239,7 @@
                 <br>
                 <br>
                   <p style="text-align:justify">
-                  <img alt="car_speed_blog" src="../images/car_speed_blog/graph9_background.png" style="height:250px;" align="right">
+                  <img alt="car_speed_blog" src="../images/car_speed_blog/graph9_methods.png" style="height:250px;" align="right">
                     Figure 4.1 shows that Day of Week is the most important variable in classifying severity, with speed zone being second. Since the scope of the research is related to speed zone, the random forest does rank speed zone as being highly important in this classification problem, consequently, it is a contributing factor to different accident severities.<br><br>
                     Furthermore, for our analysis, we want to see if there exist some causal relational between speed and accidents. Our first observation when we explore the data is that, most number of accidents are occurring at 60kmph speed zone. Then digging deeper, we find out that the cause of accident occurring more is collision with vehicle and collision with fixed object. Two factors that questions our hypothesis of speed having a greater impact on the number of accidents are:<br><br>
                     1.There is no linear increase between speed and accidents in our data and furthermore for speed zones more than 100 kmph there is a drastic fall in number of accidents.<br>
